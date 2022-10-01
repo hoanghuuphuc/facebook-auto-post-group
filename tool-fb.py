@@ -10,8 +10,8 @@ time.sleep(2)
 driver=webdriver.Chrome()
 driver.get("https://www.facebook.com/")
 time.sleep(2)
-driver.find_element("name","email").send_keys("hanzoo4210@gmail.com")
-driver.find_element("name","pass").send_keys("cvbn1114")
+driver.find_element("name","email").send_keys("*******")#username
+driver.find_element("name","pass").send_keys("*******")#password
 driver.find_element("name","login").click()
 time.sleep(5)
 for i in range (len(LinkGroup)):
