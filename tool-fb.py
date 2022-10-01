@@ -5,9 +5,7 @@ from os import link
 from selenium import webdriver
 import time
 message=input("Nội Dung Muốn Đăng Bài: ")
-value="/html/body/div[1]/div/div[1]/div/div[4]/div/div/div[1]/div/div[2]/div/div/div/div/div[1]/form/div/div[1]/div/div/div[1]/div/div[2]/div[1]/div[1]/div[1]/div[1]/div/div/div/div/div[2]/div/div/div/div"
-#link Group
-LinkGroup=['834787847917548','3275258786077478']
+LinkGroup=['834787847917548','3275258786077478']#link Group
 time.sleep(2)
 driver=webdriver.Chrome()
 driver.get("https://www.facebook.com/")
